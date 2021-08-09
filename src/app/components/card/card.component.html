@@ -1,0 +1,6 @@
+<div *ngIf="card; else noCard">
+    <h3> {{ card.title }} </h3>
+</div>
+<ng-template #noCard>
+    <input placeholder="Title">
+</ng-template>
